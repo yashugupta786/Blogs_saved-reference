@@ -1,0 +1,15 @@
+Bounding boxes in image processing  consist of 4 coodinates which further has 2 representations 
+
+1. Bounding boxes are usually represented by either two coordinates (x1, y1) and (x2, y2). (x1,y1) is the top left and (x2,y2) is the bottom right
+2. Either by one co-ordinate (x1, y1) and width (w) and height (h) of the bounding box.  (x1,y1) is the top left 
+
+There are various formula available for the conversion 
+Width = (X2 - X1)
+Height = (Y2 - Y1)
+
+
+
+x1,y1 is called xmin,ymin
+x2 y2 is called xmax,ymax 
+
+https://gist.github.com/microcoder-py/2e4ed403bb8a1fac4705bc17185c8eca
